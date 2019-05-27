@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReviewFilter should render correctly according to props 1`] = `
+"<div class=\\"sc-gzVnrw sc-jTzLTM kVNAQh\\">
+  <div class=\\"sc-VigVT gFzrRt\\">
+    <input placeholder=\\"Search reviews\\" class=\\"sc-iwsKbI bwkJWA\\" value=\\"\\">
+    <select class=\\"sc-gqjmRU cxVyKR\\">
+      <option value=\\"day\\">Group by day</option>
+      <option value=\\"week\\">Group by week</option>
+      <option value=\\"month\\">Group by month</option>
+    </select>
+    <select class=\\"sc-gqjmRU cxVyKR\\">
+      <option value=\\"5\\">5 star only</option>
+      <option value=\\"4\\">4 star only</option>
+      <option value=\\"3\\">3 star only</option>
+      <option value=\\"2\\">2 star only</option>
+      <option value=\\"1\\">1 star only</option>
+    </select>
+    <select class=\\"sc-gqjmRU cxVyKR\\">
+      <option value=\\"desc\\">Most Recent</option>
+      <option value=\\"asc\\">Older</option>
+    </select>
+  </div>
+</div>"
+`;

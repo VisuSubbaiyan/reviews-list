@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainWrapper should render correctly 1`] = `"<div class=\\"sc-bdVaJa kkqKIM\\">sample text</div>"`;

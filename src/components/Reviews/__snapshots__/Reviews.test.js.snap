@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Reviews /> should render correctly with list of reviews 1`] = `
+"<div class=\\"reviews sc-VigVT caOjsR\\">
+  <div class=\\"sc-gzVnrw sc-kGXeez kBZLLG\\">
+    <div class=\\"sc-kgoBCf gIdQai\\">
+      <input placeholder=\\"Search reviews\\" class=\\"sc-iwsKbI bwkJWA\\" value=\\"\\">
+      <select class=\\"sc-gqjmRU cxVyKR\\">
+        <option value=\\"day\\">Group by day</option>
+        <option value=\\"week\\">Group by week</option>
+        <option value=\\"month\\">Group by month</option>
+      </select>
+      <select class=\\"sc-gqjmRU cxVyKR\\">
+        <option value=\\"5\\">5 star only</option>
+        <option value=\\"4\\">4 star only</option>
+        <option value=\\"3\\">3 star only</option>
+        <option value=\\"2\\">2 star only</option>
+        <option value=\\"1\\">1 star only</option>
+      </select>
+      <select class=\\"sc-gqjmRU cxVyKR\\">
+        <option value=\\"desc\\">Most Recent</option>
+        <option value=\\"asc\\">Older</option>
+      </select>
+    </div>
+  </div>
+  <div class=\\"sc-gzVnrw gQTOSD\\">
+    <button type=\\"button\\" value=\\"Refresh\\" class=\\"sc-bZQynM gpFfZL\\">Refresh</button>
+  </div>
+  <div class=\\"sc-gzVnrw gGsKwo\\">
+    <div class=\\"sc-dnqmqq brBvzj\\"></div>
+  </div>
+</div>"
+`;

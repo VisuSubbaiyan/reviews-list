@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render correctly 1`] = `
+"<header class=\\"sc-bdVaJa jZXBEe\\">
+  <h1 class=\\"sc-bwzfXH gZwPLo\\">sample text</h1>
+</header>"
+`;

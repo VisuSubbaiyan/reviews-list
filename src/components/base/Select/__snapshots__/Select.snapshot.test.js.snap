@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select component render correctly 1`] = `
+"<select class=\\"sc-bdVaJa rCKJb\\">
+  <option value=\\"1\\">1</option>
+  <option value=\\"2\\">2</option>
+</select>"
+`;
