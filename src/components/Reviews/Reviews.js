@@ -19,9 +19,14 @@ class Reviews extends Component {
   /**
    * @property {<Redux.Action>} props.loadReview - action that load reviews from API
    * @property {<Redux.Action>} props.resetReviews - action that clear the reviews
+   * @property {boolean} props.hasMore - indicates thats need to load more reviews or not
+   * @property {boolean} props.loading - indicates thats loading is in progress or not
+   * @property {Array<Object>} props.reviews - list of reviews
    */
   static propTypes = {
     hasMore: PropTypes.bool.isRequired,
+    loading: PropTypes.bool,
+    reviews: PropTypes.arrayOf(PropTypes.object).isRequired,
     loadReviews: PropTypes.func.isRequired,
     resetReviews: PropTypes.func.isRequired,
   }

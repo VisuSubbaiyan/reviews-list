@@ -5,14 +5,15 @@ Tech stack - React, redux and redux-thunk.
 
 ### Task Done:
 - Infinite scrolling, more reviews will be loaded on user scroll
-- User can search, group (by day, week , month) and sort reviews
+- User can search, group (by day, week, month) and sort reviews
+- Reviews referesh option
 - Used styled-components for CSS-in-JS
 - Scroll smoothly to top position in filters change
 
 ### Best practices followed:
-- Naming convenstion for fils and folders
-- Considered performance, avaid unnecessary component re-redering used React.memo
-- Best view in mobile, tab and Desktop
+- Naming convention and folder structuring
+- Considered performance, avoid unnecessary component re-rendering used React.memo
+- Best view in mobile, tab and Desktop (Responsive)
 - PropTypes used for static type check and available dev-dependency
 - Covered sample sanpshot / unit testing for components, actionCreators and reducers
 
