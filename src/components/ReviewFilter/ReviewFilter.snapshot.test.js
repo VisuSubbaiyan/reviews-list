@@ -3,7 +3,7 @@ import ReviewFilter from './ReviewFilter';
 import { createMountedComponent, sampleState, mockFunction } from '../../helpers/testUtil';
 
 describe('ReviewFilter should', () => {
-  xit('render correctly according to props', () => {
+  it('render correctly according to props', () => {
     const mountedReviewFilter = createMountedComponent({
       children: <ReviewFilter {...sampleState} onChange={mockFunction} />
     });
