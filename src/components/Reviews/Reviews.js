@@ -88,6 +88,7 @@ class Reviews extends Component {
     }, 200);
   }
 
+  // TODO: filtering logic needs to be moved to reducer
   renderReviews = () => {
     const { stars, groupBy: group, sortBy, search } = this.state;
 
